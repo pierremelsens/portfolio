@@ -15,9 +15,13 @@ interface Props {
 const { title, description } = Astro.props;
 ---
 
-<html lang="en">
+<html lang="fr">
 	<head>
 		<MainHead title={title} description={description} />
+		<meta property="og:title" content="Titre de la page">
+		<meta property="og:description" content="Portfolio de Pierre Melsens">
+		<meta property="og:image" content="https://pierre-melsens.netlify.app/assets/portfolio.png">
+		<meta property="og:url" content="https://pierre-melsens.netlify.app/">
 	</head>
 	<body>
 		<div class="stack backgrounds">
