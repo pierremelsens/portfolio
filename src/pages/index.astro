@@ -5,7 +5,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 // Component Imports
-import CallToAction from '../components/CallToAction.astro';
+import CallToActionNoBlank from '../components/CallToActionNoBlank.astro';
 import Grid from '../components/Grid.astro';
 import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
@@ -73,10 +73,10 @@ const projects = (await getCollection('work'))
 				</div>
 
 				<div class="cta">
-					<CallToAction href="/work/">
+					<CallToActionNoBlank href="/work/">
 						Voir plus
 						<Icon icon="arrow-right" size="1.2em" />
-					</CallToAction>
+					</CallToActionNoBlank>
 				</div>
 			</section>	
 		</main>

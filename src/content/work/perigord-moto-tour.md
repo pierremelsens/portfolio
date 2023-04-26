@@ -3,7 +3,7 @@ title: Périgord Moto Tour
 publishDate: 2019-10-02 00:00:00
 img: /assets/moto-tour.png
 techno: WordPress
-url: https://bestof.ovh/
+url: https://perigord-moto-tour.com/
 img_alt: Site vitrine de Périgord Moto Tour.
 description: |
   We developed brand positioning and design assets for the launch
