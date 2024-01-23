@@ -1,6 +1,6 @@
 ---
 title: Le Bon Ardennais
-publishDate: 2020-05-02 00:00:00
+publishDate: 2020-05-04 00:00:00
 img: /assets/site_lebon_ardennais.png
 techno: Symfony 6 + tailwind
 url: https://lebon-ardennais.fr
